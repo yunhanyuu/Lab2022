@@ -36,5 +36,3 @@ function keyframe(t) {
 export {makeCar, keyframe};
 export { clock, car};
 
-export {makeCar, keyframe};
-export { clock, car};
