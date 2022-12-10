@@ -1,17 +1,11 @@
 import * as THREE from "https://threejs.org/build/three.module.js"
-import {keys} from "https://yunhanyuu.github.io/Lab/init.js";
+import {keys} from "https://yunhanyuu.github.io/Lab2022/init.js";
 //var keys;
 var T = 5;
 var clock = new THREE.Clock();
 var ts = clock.getElapsedTime();
 var car = new THREE.Group();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
->>>>>>> 2f89aa0 (update)
->>>>>>> fa3e6c4 (lab)
 function makeCar() {
   var normalMat = new THREE.MeshNormalMaterial({
     wireframe: true
@@ -22,13 +16,7 @@ function makeCar() {
   car.add(body, nose);
   return car;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
->>>>>>> 2f89aa0 (update)
->>>>>>> fa3e6c4 (lab)
 function keyframe(t) {
   var s = ((t - ts) % T) / T;
 
@@ -44,15 +32,9 @@ function keyframe(t) {
   car.position.lerpVectors(keys[ii][1], keys[ii + 1][1], a);
   car.quaternion.slerpQuaternions(keys[ii][2], keys[ii + 1][2], a);
 }
-<<<<<<< HEAD
+
 export {makeCar, keyframe};
 export { clock, car};
-=======
-<<<<<<< HEAD
+
 export {makeCar, keyframe};
 export { clock, car};
-=======
-export {makeCar,keyframe};
-export {clock, car};
->>>>>>> 2f89aa0 (update)
->>>>>>> fa3e6c4 (lab)

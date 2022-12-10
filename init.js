@@ -1,5 +1,5 @@
 import * as THREE from "https://threejs.org/build/three.module.js"
-import {makeCar,keyframe} from "https://yunhanyuu.github.io/Lab/makeCar.js"
+import {makeCar,keyframe} from "https://yunhanyuu.github.io/Lab2022/makeCar.js"
 import {clock,car} from "https://yunhanyuu.github.io/Lab/makeCar.js"
 import { OrbitControls } from 'https://cdn.skypack.dev/three@0.136/examples/jsm/controls/OrbitControls.js';
 var camera, scene, renderer,keys;
@@ -53,12 +53,7 @@ function animate() {
   renderer.render(scene, camera);
 }
 export {init,animate};
-<<<<<<< HEAD
 export{camera,scene,renderer,keys};
-=======
-<<<<<<< HEAD
-export{camera,scene,renderer,keys};
-=======
-export{camera,scene,renderer,keys};
->>>>>>> 2f89aa0 (update)
->>>>>>> fa3e6c4 (lab)
+
+
+
